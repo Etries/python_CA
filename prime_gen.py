@@ -36,6 +36,7 @@ def graph_plotter(n_array):
     yarray = np.array(n_array[1])
     plt.figure(figsize=(10, 6))
     plt.plot(xarray, yarray, label='Series 1')
+    plt.title('Graph of sequence of primes')
     plt.legend()
     # // Display the plot //
     plt.grid(False) # Equivalent to unset='grid'
